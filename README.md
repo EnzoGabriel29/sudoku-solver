@@ -11,7 +11,7 @@ Using the Terminal, clone the repository:
 Open `main.cpp` file and, in the source code, there will be three two-dimensional vectors.
 These vectors represent a Sudoku board (note that they are 9x9), where the missing squares
 have the value 0. You can test the available boards or add your own. Line 40 of the file
-defines which matrix will be used as a board. After defining a board to use, save the file
+defines which matrix will be used as a board. After defining a board to use, save the file,
 change the directory to `sudoku-solver` folder and compile the source:
 
     g++ -o main main.cpp Grid.cpp SudokuGrid.cpp
@@ -20,6 +20,10 @@ After that, run the executable:
 
     ./main
 
+If you choose the third board available on `main.cpp` file, you'll see the following output:
+
+![](https://i.imgur.com/wje9iH3.png)
+
 ## TODO
 
 - [ ] Add source code documentation
@@ -27,3 +31,5 @@ After that, run the executable:
 - [ ] Add a board via text file
 
 - [ ] Some code improvements
+
+- [ ] Graphical interface?
